@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#editable {
+  width: 500px;
+  height: 30px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#editable2 {
+  width: 473px;
+  height: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+
+#image-upload {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-position: center;
+  background-size: min(100%, 100%);
+  background-color: #E2B6A7;
+}
+
+#preview-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.upload-box {
+  line-height: 0.8; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 100px;
+  cursor: pointer;
+  position: relative;
+}
+
+.gorsel-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+#save-btn {
+  width: 25px;
+  height: 25px;
+  background-color: gray;
+  border: none;
+  cursor: pointer;
+  margin-left: 495px;
+}
+
+#save-btn:focus {
+  width: 25px;
+  height: 25px;
+  background-color: green;
+  border: none;
+  cursor: pointer;
+  margin-left: 495px;
+}
+
+#new-title {
+  color: orange;
+  font-weight: bold;
+}
+
+#new-img {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-position: center;
+  background-size: min(100%, 100%);
+  background-color: #E2B6A7;
+  object-fit: cover;
+}
+
+
