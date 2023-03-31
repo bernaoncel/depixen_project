@@ -26,16 +26,16 @@ function App() {
   const [data, setData] = useState(null);
 
   
-  // Firebase konfigürasyonu
+  // Firebase konfigürasyonu (User should enter his/her configuration data in here)
   const firebaseConfig = {
-    apiKey: "AIzaSyDNS5C0bv9iMVIJT5yJgkuo2_LXd9ocJ5E",
-    authDomain: "depixen-11ed4.firebaseapp.com",
-    projectId: "depixen-11ed4",
-    storageBucket: "depixen-11ed4.appspot.com",
-    messagingSenderId: "371250510243",
-    appId: "1:371250510243:web:c4e1f6e8e683701ab1c216",
-    measurementId: "G-9S866XKP4W",
-    databaseURL: "https://depixen-11ed4-default-rtdb.firebaseio.com/"
+    apiKey: "your_api_key",
+    authDomain: "your_auth_domain",
+    projectId: "your_project_id",
+    storageBucket: "your_storage_bucket",
+    messagingSenderId: "yor_messaging_sender_id",
+    appId: "your_app_id",
+    measurementId: "your_measurement_id",
+    databaseURL: "your_database_url"
   };
 
   // Initialize Firebase (Firebase aktif etme)
